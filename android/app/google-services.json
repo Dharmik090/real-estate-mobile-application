@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "281644798813",
+    "project_id": "real-estate-fb5f7",
+    "storage_bucket": "real-estate-fb5f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281644798813:android:908f3f2eb7899048528eb4",
+        "android_client_info": {
+          "package_name": "com.estateease.flutter_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzBRz_ziQKRirdjxQquGFKT8W9e8XNnYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -35,8 +35,7 @@ class _MyPropertiesState extends State<MyProperties> {
     final String? userId = prefs.getString('userId');
     final String? token = prefs.getString('token');
 
-    final String apiUrl = "http://10.0.2.2:5000/user/property/${userId}";
-    // final String url = "http://192.168.1.11:5000/user/property/${userId}";
+    final String apiUrl = /*your api url*/ + userId;
 
     try {
       final response = await http.get(

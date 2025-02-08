@@ -24,8 +24,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   List<dynamic> homes = [];
   bool isLoading = true;
-  String apiUrl = 'http://10.0.2.2:5000/properties';
-  // final String apiUrl = "http://192.168.1.11:5000/properties";
+  String apiUrl = /*your api url*/;
+  // final String apiUrl = /*your api url*/;
 
   @override
   void initState() {

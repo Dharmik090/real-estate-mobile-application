@@ -62,8 +62,8 @@ class _SignUpState extends State<SignUp> {
     };
 
     // API endpoint URL
-    // final String url = "http://10.0.2.2:5000/user";
-    final String url = "http://192.168.1.11:5000/user";
+    final String url = "http://10.0.2.2:5000/user";
+    // final String url = "http://192.168.1.11:5000/user";
 
     // Set loading state to true
     setState(() {

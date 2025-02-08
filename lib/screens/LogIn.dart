@@ -38,8 +38,8 @@ class _LogInState extends State<LogIn> {
 
     if (_emailValidate.length != 0 || _passwordValidate.length != 0) return;
 
-    // final String url = "http://10.0.2.2:5000/login/";
-    final String url = "http://192.168.1.11:5000/login/";
+    final String url = "http://10.0.2.2:5000/login/";
+    // final String url = "http://192.168.1.11:5000/login/";
 
     Map<String, dynamic> loginData = {
       "email": _emailController.text,

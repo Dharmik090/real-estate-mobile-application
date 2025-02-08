@@ -33,13 +33,13 @@ class _ProfileState extends State<Profile> {
     final String? userId = prefs.getString('userId');
     final String? token = prefs.getString('token');
 
-    // final String url = "http://10.0.2.2:5000/user/$userId";
-    final String url = "http://192.168.1.11:5000/user/"+userId!;
+    final String url = "http://10.0.2.2:5000/user/$userId";
+    // final String url = "http://192.168.1.11:5000/user/"+userId!;
 
-    // final String propertiesUrl =
-    //     "http://10.0.2.2:5000/user/property/$userId"; // Assuming this API gives user properties
     final String propertiesUrl =
-        "http://192.168.1.11:5000/user/property/"+userId!; // Assuming this API gives user properties
+        "http://10.0.2.2:5000/user/property/$userId"; // Assuming this API gives user properties
+    // final String propertiesUrl =
+        // "http://192.168.1.11:5000/user/property/"+userId!; // Assuming this API gives user properties
 
     try {
       // Fetch user data

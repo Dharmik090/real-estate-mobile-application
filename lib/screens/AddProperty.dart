@@ -107,8 +107,8 @@ class _AddPropertyState extends State<AddProperty> {
     final String? userId = prefs.getString('userId');
     final String? token = prefs.getString('token');
 
-    // final String url = "http://10.0.2.2:5000/property/" + userId!;
-    final String url = "http://192.168.1.11:5000/property/" + userId!;
+    // final String url = /*your api url*/ + userId!;
+    final String url = /*your api url*/ + userId!;
 
     // Prepare the property document
     // final Map<String, dynamic> propertyDocument = {
